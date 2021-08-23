@@ -1,8 +1,3 @@
-//Employee class
-//name
-//id
-//email
-
 class Employee {
     constructor(name, id, email) {
         this.name = name;
@@ -14,3 +9,4 @@ class Employee {
     getEmail();
     getRole();//returns employee
 }
+module.exports = Employee;

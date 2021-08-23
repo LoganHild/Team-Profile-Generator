@@ -1,6 +1,4 @@
-//Intern class
-//Employee properties
-//school
+const Employee = require('./Employee.js');
 
 class Intern extends Employee {
     constructor(school) {

@@ -1,6 +1,4 @@
-//Engineer Class
-//Employee properties
-//github
+const Employee = require('./Employee.js');
 class Engineer extends Employee {
     constructor(github) {
         this.github = github;

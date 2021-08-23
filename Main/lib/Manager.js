@@ -1,7 +1,6 @@
-//Manager Class
-//Employee properties
-//officeNumber
-class manager extends Employee {
+const Employee = require('./Employee.js');
+
+class Manager extends Employee {
     constructor(office) {
         this.office = office;
     }
