@@ -17,57 +17,12 @@ function generateTeam(data) {
                 <h1 class="text-center">My Team</h1>
             </div>
         </header>
-        <div class="container">
-            <div class="row">
-                <div class="team-member col-12 d-flex justify-content-center">
-                    <div class="card">
-                        <div class="card-header">
-                            <h2>${data.managerName}</h2>
-                            <h3>Manager</h3>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-group">
-                                <li class="list-group-item">ID: ${data.managerID}</li>
-                                <li class="list-group-item"><a href="mailto:${data.managerEmail}">Email: ${data.managerEmail}</a></li>
-                                <li class="list-group-item">Office Number: ${data.office}</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-member col-12 d-flex justify-content-center">
-                    <div class="card">
-                        <div class="card-header">
-                            <h2>${data.engineerName}</h2>
-                            <h3>Engineer</h3>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-group">
-                                <li class="list-group-item">ID: ${data.engineerID}</li>
-                                <li class="list-group-item">Email: <a href="mailto:${data.engineerEmail}">${data.engineerEmail}</a></li>
-                                <li class="list-group-item">GitHub: <a href="https://github.com/${data.github}" target="_blank">${data.github}</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-member col-12 d-flex justify-content-center">
-                    <div class="card">
-                        <div class="card-header">
-                            <h2>${data.internName}</h2>
-                            <h3>Intern</h3>
-                        </div>
-                        <div class="card-body">
-                            <ul class="list-group">
-                                <li class="list-group-item">ID: ${data.internID}</li>
-                                <li class="list-group-item">Email: <a href="mailto:${data.internEmail}">${data.internEmail}</a></li>
-                                <li class="list-group-item">School: ${data.school}</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> 
+        ${generateMembers}
     </body>
     </html>
     `;
 }
+
+const 
+
 module.exports = generateTeam;
