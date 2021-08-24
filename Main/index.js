@@ -30,7 +30,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'managerOffice',
+        name: 'office',
         message: 'What is the team manager\'s office number?'
     },
     {
@@ -56,7 +56,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'engineerGithub',
+        name: 'github',
         message: 'What is your engineer\'s GitHub username?'
     },
     {
@@ -82,7 +82,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'internSchool',
+        name: 'school',
         message: 'What is your intern\'s school?'
     },
     {
@@ -103,7 +103,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions)
       .then((data) => {
-          writeToFile('team.html', generateTeam(data));
+          writeToFile('./dist/team.html', generateTeam(data));
       });
 }
 

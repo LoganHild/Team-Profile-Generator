@@ -1,8 +1,18 @@
 const Employee = require('./Employee.js');
 
+//extension of parent class
 class Manager extends Employee {
-    constructor(office) {
+    constructor(name, id, email, office) {
+
+        //takes in data from parent class
+        super(name, id, email)
         this.office = office;
     }
-    getRole();//overridden to return Manager
+
+    //Method for returning data
+    getRole() {
+        return 'Manager';
+    };
 }
+
+module.exports = Manager;
