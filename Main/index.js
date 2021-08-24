@@ -120,8 +120,8 @@ function writeToFile(fileName, data) {
     });
 }
 
-function buildTeam(data) {
-    writeToFile('myTeam.html', generateTeam(data));
+function buildTeam(employees) {
+    writeToFile('myTeam.html', generateTeam(employees));
 }
 manager();
-
+module.exports = employees
