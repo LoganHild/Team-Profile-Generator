@@ -11,6 +11,7 @@ h1 {
 }
 .card-header {
     background-color: #718355;
+    text-align: center;
 }
 h2, h3 {
     color: #e9f5db;
