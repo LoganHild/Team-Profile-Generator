@@ -1,0 +1,30 @@
+body {
+    background-color: #e9f5db;
+}
+header {
+    background-color: #718355;
+    padding: 50px;
+}
+h1 {
+    color: #e9f5db;
+    font-size: 60px;
+}
+.card-header {
+    background-color: #718355;
+}
+h2, h3 {
+    color: #e9f5db;
+    font-size: 35px;
+    padding: 7px;
+}
+.list-group-item{
+    background-color: #cfe1b9;
+}
+.card-body {
+    background-color: #b5c99a;
+}
+.card {
+    justify-content: space-around;
+    box-shadow: 5px 10px 8px lightslategray;
+    margin: 10px;
+}

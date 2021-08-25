@@ -4,7 +4,7 @@
   "description": "Easy to use Generator using the command line to take in information about employees of a team and generates an HTML webpage to display summaries of each member entered.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
