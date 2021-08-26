@@ -25,7 +25,7 @@
   Watch my instructional video below for a walkthrough! Use <code>npm i</code> to download dependencies needed to use this application. Then use <code>node index.js</code> to begin running the prompts for generating the HTML for each member.
 
   ## Usage
-  Here is the link for my instructional video for a detailed walkthrough! An example is also created of the finished product shown in the video and located within the <code>Main/dist</code> folder.
+  Here is the link for my [Instructional Video](https://drive.google.com/file/d/1pMx6gQB-0VdAcUwPZdvINfRSdDzOa0G2/view) for a detailed walkthrough! An example is also created of the finished product shown in the video and located within the <code>Main/dist</code> folder.
   
 
   ## License
