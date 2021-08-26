@@ -27,6 +27,7 @@
   ## Usage
   Here is the link for my [Instructional Video](https://drive.google.com/file/d/1pMx6gQB-0VdAcUwPZdvINfRSdDzOa0G2/view) for a detailed walkthrough! An example is also created of the finished product shown in the video and located within the <code>Main/dist</code> folder.
   
+  ![Screenshot (76)](https://user-images.githubusercontent.com/82903685/130895723-769a90fb-b1f3-43b2-aeee-196638761a8f.png)
 ![Screenshot (72)](https://user-images.githubusercontent.com/82903685/130895450-87144a27-71f4-4065-896c-c997e931a58e.png)
 
   ## License
