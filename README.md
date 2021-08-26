@@ -41,6 +41,7 @@
 
   ## Tests
   Once <code>npm i</code> has been used to install the dependencies, enter <code>npm test</code> to run the tests for this application. This is also shown in the walkthrough video above!
+  
   ![Screenshot (77)](https://user-images.githubusercontent.com/82903685/130895825-3a31c16c-1219-41d6-8a5d-38f28a99be46.png)
 
 
