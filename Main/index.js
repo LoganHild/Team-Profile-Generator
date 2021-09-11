@@ -1,5 +1,4 @@
 const inquirer = require('inquirer');
-const jest = require('jest');
 const fs = require('fs');
 const chalk = require('chalk');
 const array = require('./src/generateTeam.js');
